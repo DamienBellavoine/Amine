@@ -43,7 +43,7 @@ WebUI.waitForElementVisible(findTestObject('Page_My Store/span_Add to cart'), 0)
 WebUI.click(findTestObject('Page_My Store/span_Add to cart'))
 
 'Small delay seems to be required'
-WebUI.delay(1)
+WebUI.delay(2)
 
 'Click Proceed button'
 WebUI.click(findTestObject('Page_My Store/Modal/Proceed_button'))
