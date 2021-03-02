@@ -27,7 +27,7 @@ WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
 'Navigate to URL'
 WebUI.navigateToUrl('http://www.automationpractice.com')
 
-'Wait for product image visible'
+'attendre le chargement de l\'iamge du produit'
 WebUI.waitForElementPresent(findTestObject('Page_My Store/img_replace-2x img-responsive'), 0)
 
 'Scroll to product image'
